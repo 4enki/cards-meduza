@@ -42,6 +42,7 @@
     {% include "layouts/social.html" %}
 
     <link href="assets/styles/style.css" rel="stylesheet" />
+    <link href="assets/scripts/likely/likely.css" rel="stylesheet" />
 
     <script>document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1js$2');</script>
   {% endblock %}
@@ -50,6 +51,7 @@
     <main>
       {% block content %}{% endblock %}
     </main>
+    {% include "blocks/footer/footer.html" %}
   </body>
 </html>
 

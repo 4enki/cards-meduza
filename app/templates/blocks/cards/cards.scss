@@ -12,7 +12,7 @@
   z-index: 1;
 
   &-bg {
-    background-image: resolve('people.png');
+    background-image: inline('people.png');
     left: 0;
     right: 0;
     width: 100%;
@@ -28,15 +28,13 @@
   &-label {
     background: #00AEEF;
     border-radius: 3px;
-    font-family: 'Roboto';
+    font-family: $GothamFontFamily;
     font-style: normal;
-    font-weight: 300;
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 14px;
+    font-size: 14px;
     text-align: center;
-    letter-spacing: -.03em;
     display: inline-block;
-    padding: 3px 7px;
+    padding: 8px 12px 7px 12px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
     color: #fff;
   }
@@ -46,11 +44,24 @@
 
     .h1 {
       font-family: $GothamFontFamily;
-      font-size: 35px;
-      line-height: 38px;
+      font-size: 40px;
+      line-height: 45px;
       margin: 0 auto 15px;
       text-align: center;
       color: #FFFFFF;
+    }
+  }
+
+  &_share {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+
+    &-text {
+      font-size: 14px;
+      line-height: 14px;
+      color: #fff;
+      padding-bottom: 4px;
     }
   }
 }

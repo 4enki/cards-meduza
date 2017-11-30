@@ -86,7 +86,8 @@
 <link rel="image_src" href="" />
 
 
-    <link href="assets/styles/style.css?v=458d8e5f52a66fd99b5f980a739534ad" rel="stylesheet" />
+    <link href="assets/styles/style.css?v=3562e3bc40a43b150c5157137c739247" rel="stylesheet" />
+    <link href="assets/scripts/likely/likely.css?v=c9717340cab0f8312c4d63a076aba07b" rel="stylesheet" />
 
     <script>document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1js$2');</script>
   
@@ -94,18 +95,55 @@
   <body>
     <main>
       
-<div class="container">
-  <div class="row">
-    <div class="col-xs-4"></div>
-    <div class="col-xs-8">
-      <div class="card">
-  <div class="card_headline">
-    <div class="card_headline-bg"></div>
-    <div class="card_headline-label"><span>АССОЦИАЦИЯ «В ЛЕСУ»</span></div>
-    <div class="card_headline-head">
-      <h2 class="h2">Общее Cобрание Cобственников 2017</h2>
+  <div class="cards-header">
+  <div class="cards-header-bg"></div>
+  <div class="cards-header-label"><span>АССОЦИАЦИЯ «В ЛЕСУ»</span></div>
+  <div class="cards-header-title">
+    <h1 class="h1">Общее Cобрание Cобственников 2017</h1>
+  </div><!-- /.cards-header-title -->
+  <div class="cards-header_share">
+    <div class="cards-header_share-text"><span>Расскажите всем, а то вдруг кто-то не знает:</span></div>
+    <div class="likely likely-small likely-light">
+      <div class="vkontakte">Поделиться</div>
+      <div class="twitter">Твитнуть</div>
+      <div class="facebook">Поделиться</div>
+      <div class="gplus">Плюсануть</div>
+      <div class="odnoklassniki">Класснуть</div>
+      <div class="whatsapp">Вотсапнуть</div>
+      <div class="telegram">Отправить</div>
     </div>
-  </div><!-- /.card_headline -->
+  </div><!-- /.cards-header_share -->
+</div><!-- /.card_headline -->
+
+<div class="cards-body">
+  <div class="cards-body_sidebar">
+    <div class="cards-menu">
+      <ul class="menu-list">
+        <li class="menu-list_item">
+          <div class="menu-list_index"><span>1.</span></div>
+          <div class="menu-list_title"><span>Что случилось?</span></div>
+        </li>
+        <li class="menu-list_item">
+          <div class="menu-list_index"><span>2.</span></div>
+          <div class="menu-list_title"><span>Собрание собственников? Что это?</span></div>
+        </li>
+        <li class="menu-list_item">
+          <div class="menu-list_index"><span>3.</span></div>
+          <div class="menu-list_title"><span>Почему это важно для меня?</span></div>
+        </li>
+        <li class="menu-list_item">
+          <div class="menu-list_index"><span>4.</span></div>
+          <div class="menu-list_title"><span>Нет! Это не мое решение и платить я не буду!</span></div>
+        </li>
+        <li class="menu-list_item">
+          <div class="menu-list_index"><span>5.</span></div>
+          <div class="menu-list_title"><span>Хорошо. Какие вопросы будут в этот раз?</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="cards-body_content">
+    <div class="card" id="card1">
   <div class="card_description">
     <h4 class="card-head">1</h4>
     <h3 class="card-title">Что случилось?</h3>
@@ -115,20 +153,55 @@
   </div><!-- /.card_description -->
 </div><!-- /.card -->
 
-    </div>
+<div class="card" id="card2">
+  <div class="card_description">
+    <h4 class="card-head">2</h4>
+    <h3 class="card-title">Собрание собственников? Что это?</h3>
+    <div class="card-text">
+      <p>Общее собрание собственников помещений в многоквартирном доме — это орган управления домом.</p>
+      <p>На нем обсуждаются и принимаются решения по различным вопросам: выбор способа управление домом, выбор управляющей компании, установка видеонаблюдения, правила выгула собак и многие другие.</p>
+    </div><!-- /.card-text -->
+  </div><!-- /.card_description -->
+</div><!-- /.card -->
+
+<div class="card" id="card3">
+  <div class="card_description">
+    <h4 class="card-head">3</h4>
+    <h3 class="card-title">Почему это важно для меня?</h3>
+    <div class="card-text">
+      <p>Решение собрания обязательно к исполнению всеми собственниками. И не имеет значения согласны вы с ним или нет. То же, если вы вообще не голосовали.</p>
+      <p>Если собрание, например, решит установить систему видеонаблюдения, то ее стоимость будет распределена на всех жителей, эта сумма будет включена в платежный документ и вы будете обязаны её оплатить.</p>
+    </div><!-- /.card-text -->
+  </div><!-- /.card_description -->
+</div><!-- /.card -->
+
+<div class="card" id="card4">
+  <div class="card_description">
+    <h4 class="card-head">4</h4>
+    <h3 class="card-title">Нет! Это не мое решение и платить я не буду!</h3>
+    <div class="card-text">
+      <p>Это закон. Если вы не заплатите, управляющая компания обратится в суд и взыщет эти деньги с вас принудительно.</p>
+    </div><!-- /.card-text -->
+  </div><!-- /.card_description -->
+</div><!-- /.card -->
+
+<div class="card" id="card5">
+  <div class="card_description">
+    <h4 class="card-head">5</h4>
+    <h3 class="card-title">Хорошо. Какие вопросы будут в этот раз?</h3>
+    <div class="card-text">
+      <p>Это написано на информационном листе, в разделе «повестка собрания».</p>
+    </div><!-- /.card-text -->
+  </div><!-- /.card_description -->
+</div><!-- /.card -->
+
   </div>
-</div>
+</div><!-- /.cards-body -->
+
 
     </main>
-    <footer>
-  <div class="row">
-    <div class="col-xs">
-      <p><a href="https://github.com/4enki/spt" target="_blank">GitHub</a></p>
-    </div><!-- /.col-xs -->
-  </div><!-- /.row -->
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="assets/scripts/jquery-3.2.1.min.js?v=c9f5aeeca3ad37bf2aa006139b935f0a"></script>
+<script src="assets/scripts/likely/likely.js?v=0466b82a7feadbcad865e73f60fca180"></script>
 <script src="assets/scripts/scripts.js?v=8dcd0b3120b74c513913619d04b6d0e8"></script>
 
   </body>
